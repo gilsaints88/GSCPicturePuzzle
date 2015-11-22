@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#ffffff"
+   android:gravity="center"
+   android:orientation="vertical">
+
+<TextView android:id="@+id/txtwsize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ff0000" android:text="Text will appear here"></TextView>  
+<TextView android:id="@+id/txtsize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#0000ff" android:text="Text will appear here"></TextView>
+<TextView android:id="@+id/lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#0000ff" android:text="\nhttp://evgeni-shafran.blogspot.com/\n\nevgeni.shafran@gmail.com" android:autoLink="web|email"></TextView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#ffffff" android:gravity="center"
+	android:orientation="vertical">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#0000ff"
+			android:text="Game Type" android:id="@+id/txtGameType" />
+		<Spinner android:id="@+id/spinnerGameType" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<Button android:text="@string/begin_puzzle" android:id="@+id/btnBegin"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="#0000ff"
+		android:text="" android:id="@+id/txtImagePath" />
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:id="@+id/btnSelectPic" android:text="@string/select_image"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<CheckBox android:text="Random Images" android:id="@+id/chkRandomImages"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textColor="#0000ff"></CheckBox>
+	</LinearLayout>
+
+	<CheckBox android:text="Border" android:id="@+id/chkHasBorder"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textColor="#0000ff"></CheckBox>
+
+	<TextView android:text="@string/select_level" android:id="@+id/txtLevel"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<SeekBar android:id="@+id/seekLevel" android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:max="4"
+		android:secondaryProgress="3"></SeekBar>
+	<CheckBox android:text="Decreasing Timer" android:id="@+id/chkDecreasingTime"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textColor="#0000ff"></CheckBox>
+	<TextView android:text="@string/select_start_time" android:id="@+id/txtStartTime"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<SeekBar android:layout_height="wrap_content" android:id="@+id/seekStartTime"
+		android:layout_width="match_parent" android:max="4"
+		android:secondaryProgress="3">></SeekBar>
+	<Button android:id="@+id/btnShowHighScores" android:text="@string/show_high_scores"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+</LinearLayout>

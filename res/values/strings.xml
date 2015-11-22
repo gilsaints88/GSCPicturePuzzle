@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GSC Picture Puzzle</string>
+    <string name="begin_puzzle">Begin Puzzle</string>
+    <string name="select_image">Select Image</string>
+    <string name="select_level">Level</string>
+    <string name="select_start_time">Start Time</string>
+    <string name="title">GSC Picture Puzzle</string>
+    <string name="show_high_scores">Show High Scores</string>
+    
+    <string name="high_score_3x3">3x3</string>
+    <string name="high_score_4x4">4x4</string>
+    <string name="high_score_5x5">5x5</string>
+    <string name="high_score_6x6">6x6</string>
+</resources>
